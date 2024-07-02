@@ -8,7 +8,7 @@ Knowing about algorithms and complexity is cool, for instance I was able to redu
 
 ```c
 // Cached version of the Fibonacci algorithm
-unsigned long fibCached(unsigned int n, unsigned long cache[100], unsigned int *iters)
+unsigned long fibCached(unsigned int n, unsigned long cache[CACHE_SIZE], unsigned int *iters)
 {
     *iters += 1;
     if (n == 0 || n == 1)
