@@ -24,6 +24,16 @@ unsigned long fibCached(unsigned int n, unsigned long cache[CACHE_SIZE], unsigne
 }
 ```
 
+### Output:
+
+```sh
+> Generate fibonacci numbers up to: 20
+Cached: 1 1 2 3 5 8 13 21 34 55 89 144 233 377 610 987 1597 2584 4181 6765 10946 
+Uncached: 1 1 2 3 5 8 13 21 34 55 89 144 233 377 610 987 1597 2584 4181 6765 10946 
+Took: 53 recursions (cached)
+Took: 57291 recursions (uncached)
+```
+
 ## Compilation
 
 I've streamlined the compilation process, to get started install the `make` build tool for your OS. Then run:
